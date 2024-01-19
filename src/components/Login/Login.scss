@@ -1,0 +1,85 @@
+// Global styles
+body {
+  background-color: #f5f8fa; // Twitter's light blue background
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.Login {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+    .img {
+      width: 100%;
+      object-fit: cover;
+      max-height: 100vh;
+      min-height: 100vh;
+    }
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+
+
+.Login .FormField input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100vh;
+}
+
+// Image column
+.Login .GridColumn:first-child {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.Login .img-login { /* Use the correct class name */
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+
+  .Form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+
+  .FormField > Link { /* Target the link within FormField */
+    margin-left: 10px; /* Add some space between checkbox and link */
+  }
+
+
+
+
+
+
+
+
+.ui.button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  /* Hover state */
+  &:hover {
+    background-color: #1991da;
+  }
+
+  /* Active state (when clicked) */
+  &:active {
+    background-color: #157ec5;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
